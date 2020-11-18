@@ -1,0 +1,151 @@
+body {
+  text-align: center;
+  margin: 0px;
+}
+
+hr {
+  border-color: #41aea9;
+  border-style: dotted none none;
+  width: 20%;
+  border-width: 5px;
+}
+
+h1 {
+  font-size: 75px;
+  color: #31326f;
+  font-family: 'Dancing Script', cursives;
+}
+
+.homebar {
+  position: fixed;
+  background-color: #31326f;
+  color: #31326f;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin-top: 0px;
+}
+
+h3 {
+  color: #31326f;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: #31326f;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.profile {
+  border-radius: 100%;
+}
+
+.hometext {
+  color: white;
+  /* color: #31326f; */
+  -webkit-text-stroke: 0.5px white;
+  text-shadow: 1px 1px 8px black;
+}
+
+.hometext1 {
+  text-shadow: 1px 1px 8px black;
+  /* color: #31326f; */
+  color: white;
+  font-size: 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 75px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 400px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  line-height: 2;
+  text-align: left;
+}
+
+.code-img {
+  border-radius: 100%;
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+
+.code-img1 {
+  border-radius: 100%;
+  width: 30%;
+  float: right;
+  margin-left: 10px;
+}
+
+.code-img2 {
+  /* border-radius: 100%; */
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+
+/* .codeimg1{
+  text-align: center;
+} */
+.hometextstyle {
+  background-image: linear-gradient(#01008A, #001628);
+  /* background-color:#e8ffff; */
+  position: relative;
+  margin-top: 50px;
+  padding-top: 100px;
+  left: 0px;
+  right: 0px;
+  /* height: 650px;
+width: 100%; */
+}
+
+.bottom-container {
+  background-color: #31326f;
+  color: #31326f;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+/* .footer-link{
+  padding: 5px;
+} */
+/* .mountain{
+
+  width: auto;
+} */
+
+
+.mountain {
+  padding-top: 100px;
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .top-cloud {
+    position: relative;
+    right: 300px;
+    top: 75px;
+  }
+
+  .bottom-cloud {
+    position: relative;
+    left: 300px;
+    bottom: 300px;
+  }
+}
